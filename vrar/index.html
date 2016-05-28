@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LOHO VR/AR Demo</title>
+    <meta name="description" content="360 Video — A-Frame">
+    <script src="aframe-v0.2.0.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <video id="video" src="assets/vr_detect_upperbody_demo_640x320.mp4"
+               autoplay="true" loop></video>
+      </a-assets>
+
+      <a-videosphere src="#video" rotation="0 45 0"></a-videosphere>
+    </a-scene>
+  </body>
+</html>
